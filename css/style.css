@@ -1,24 +1,106 @@
 body {
     margin: 0%;
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(12, 12, 48);
+}
+
+p {
+    color: whitesmoke;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DotGothic16', sans-serif;
 }
 
 h1 {
-    color: peru;
+    color: yellowgreen;
+    font-size: 5,653;
 }
 
+h2 {
+    color: yellowgreen;
+    font-size: 4,653;
+}
 h3 {
-    color:blue;
+    color:rgb(170, 224, 61);
+    font-size: 3,653;
 }
 
 h4 {
-    color:chocolate;
+    color:white;
+    font-size: 4,653;
+    
 }
 
 header {
-    background-color: darkgrey;
+    background-color: rgb(12, 12, 48);
 }
 
 div {
     /* border: solid 1px yellow;
     width: 100px; */
+}
+
+button {
+    background-color: yellow;
+    color: purple;
+    border-radius: 50px;
+    border: 1px yellow;
+    font-family: 'DotGothic16', sans-serif;
+    padding: 6px 12px 6px 12px;
+}
+
+.btn-large {
+    width: 300px;
+    height: 80px;
+    font-size: 21px;
+}
+
+.card {
+    background-color:rgb(12, 12, 48);
+    padding: 20px;
+    border: 1px solid yellowgreen;
+    border-radius: 40px;
+    width: 250px;
+    margin: 50px 30px 10px 30px;
+    
+}
+
+img {
+    width: 100%;
+
+}
+
+.logo-header {
+    width: 100px;
+}
+
+#hero {
+    height: 90vh;
+    /* background-color: tomato; */
+    text-align: center;
+    background-image: url('../img/thomas-evans-HSFv96gTTlE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    height: 50vh;
+    color: yellowgreen;
+}
+
+#contact {
+    height: 50vh;
+    color: yellowgreen;
+}
+
+footer {
+    height: 50vh;
+    color: yellowgreen;
+}
+a {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 2,653;
+    color: yellowgreen;
+    
 }
