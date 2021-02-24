@@ -12,16 +12,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">  
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- start - header -->
-    <header>
+    <header class="container">
         <div>
             <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
         </div>
         <div> 
             <nav>
+                
                 <a href="#about">About</a> 
                 <a href="#contact">Contact</a>
                 <a href="https://www.ironhack.com">Buy Now</a>
@@ -30,8 +32,8 @@
 
         </div>
             <nav>
-            <a href="#">Login</a> 
-            <a href="#">Icon</a>
+            <a href="#"><i class="fas fa-hat-wizard fa-2x"></i></a> 
+            <a href="#"><i class="fas fa-search fa-2x"></i></a>
     
             </nav>
         <div>
@@ -41,7 +43,7 @@
     <!-- end - header -->
 
     <!-- start - hero -->
-    <section id="hero">
+    <section id="hero" class="container">
         <h1>Memer Wemer</h1>
         <h4>Best place for meme inspiration</h4>
         <button class="btn-large">Create Meme</button>
@@ -49,24 +51,28 @@
     <!-- end - hero -->
 
     <!-- start - cards -->
-    <section>
+    <section id="card" class="container">
         <!-- start - card 1  -->
         <div class="card">
             <img src="img/gilly-wcWN29NufMQ-unsplash.jpg"alt="Buffalo Bill">
             <h3>Card Title</h3>
             <p>Description</p>
             Avatar
-            Author <button>another one</button>
+            Author 
+            <br><br>
+            <button>another one</button>
         </div>
         <!-- end - card 1 -->      
     
-        <!-- start - card 1=2  -->
+        <!-- start - card 2  -->
         <div class="card">
             <img src="img/image (2).png" alt="Sassy Cat">
             <h3>Card Title</h3>
             <p>Description</p>
             Avatar 
-            Author <button>another one</button>
+            Author 
+            <br><br>
+            <button>another one</button>
         </div>
         <!-- end - card 2 -->      
         
@@ -76,30 +82,58 @@
             <h3>Card Title</h3>
             <p>Description</p>
             Avatar
-            Author <button>another one</button>
+            Author 
+            
+            <button>another one</button>
         </div>
         <!-- end - card 3 -->
-
-
    
     </section>
     <!-- end - cards -->
     
 <!-- start - about -->
 <section id="about"> 
-    About
+    <br><br>
+    <h3>About</h3>
 </section>
 <!-- end - about -->
 
 <!-- start - contact -->
 <section id="contact"> 
-    Contact
+    <h3>Let's Taco Bout It</h3>
+    <br>
+    <label for= "name">Name</label>
+    <br>
+    <input type="text" id="name">
+    <br><br>
+    <label for= "email">Email</label>
+    <br>
+    <input type="email" id="email">
+    <br><br>
+    <label for= "textbox">Let's Taco Bout</label> 
+    <br>
+    <input type="textbox" id="textbox">
+    <br><br>
+    <input type="file" id="file">
+    <br><br>
+    <input type="checkbox">
+    <label for= "checkbox">I agree with the terms and conditions</label>
+    <br><br>
+    <input type="submit">
+
+
 </section>
 <!-- end - contact -->
 
+
 <!-- start - footer -->
 <footer>
-    Here is the footer
+    <p>Follow Memer</p>
+    <br>
+    <a href="#"><i class="fab fa-behance fa-2x"></i></a>
+    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="#"><i class="fab fa-reddit fa-2x"></i></a>
+    <a href="#"><i class="fab fa-medium fa-2x"></i></a>
 </footer>
 <!-- end - footer -->
 

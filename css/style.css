@@ -1,12 +1,15 @@
-body {
-    margin: 0%;
+* {
     font-family: 'DotGothic16', sans-serif;
     font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0%;
     background-color: rgb(12, 12, 48);
 }
 
 p {
     color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'DotGothic16', sans-serif;
@@ -14,27 +17,33 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     color: yellowgreen;
-    font-size: 5,653;
+    font-size: 6rem;
+    margin: 12px;
 }
 
 h2 {
     color: yellowgreen;
-    font-size: 4,653;
+    font-size: 4.653rem;
+    margin: 12px;
 }
 h3 {
     color:rgb(170, 224, 61);
-    font-size: 3,653;
+    font-size: 1.45rem;
 }
 
 h4 {
-    color:white;
-    font-size: 4,653;
+    color:yellow;
+    font-size: 1.75rem;
     
 }
 
 header {
-    background-color: rgb(12, 12, 48);
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
+
 
 div {
     /* border: solid 1px yellow;
@@ -46,29 +55,32 @@ button {
     color: purple;
     border-radius: 50px;
     border: 1px yellow;
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 6px 12px 6px 12px;
 }
 
 .btn-large {
-    width: 300px;
-    height: 80px;
+    width: 200px;
+    height: 60px;
     font-size: 21px;
 }
 
 .card {
     background-color:rgb(12, 12, 48);
-    padding: 20px;
+    padding: 50px;
     border: 1px solid yellowgreen;
     border-radius: 40px;
     width: 250px;
-    margin: 50px 30px 10px 30px;
-    
+    margin: 0px 30px 10px 30px;
+}
+#card {
+    justify-content: space-evenly;
+    padding: 60px 100px;
 }
 
 img {
-    width: 100%;
-
+    width:100%;
+    height:auto;
 }
 
 .logo-header {
@@ -76,31 +88,69 @@ img {
 }
 
 #hero {
-    height: 90vh;
+    height: 60vh;
     /* background-color: tomato; */
     text-align: center;
     background-image: url('../img/thomas-evans-HSFv96gTTlE-unsplash.jpg');
     background-size: cover;
     background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #about {
-    height: 50vh;
+    height: 20vh;
     color: yellowgreen;
+    margin: 10vh;
 }
 
 #contact {
-    height: 50vh;
+    height: 500px;
+    width: 500px;
     color: yellowgreen;
+    background-color: transparent;
+    border: 1px solid yellowgreen;
+    border-radius: 15px;
+    margin: 60vh;
+    padding: 60px 100px;
+}
+
+#name {
+    color: yellowgreen;
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+}
+
+#email {
+    color: yellowgreen;
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+}
+
+#textbox {
+    block-size: 80px;
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
 }
 
 footer {
     height: 50vh;
     color: yellowgreen;
+    justify-content: space-around;
 }
 a {
-    font-family: 'DotGothic16', sans-serif;
     font-size: 2,653;
-    color: yellowgreen;
+    color: yellowgreen; 
+}
+
+.container {
+    display: flex;
     
 }
